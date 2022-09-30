@@ -51,6 +51,12 @@
     </build>
 
     <dependencies>
+    	<!-- Workaround Apache Felix Annotations -->
+    	<dependency>
+		    <groupId>org.apache.felix</groupId>
+		    <artifactId>org.apache.felix.scr.annotations</artifactId>
+		    <version>1.12.0</version>
+		</dependency>
         <!-- OSGi Dependencies -->
         <dependency>
             <groupId>org.osgi</groupId>
